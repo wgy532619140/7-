@@ -1,5 +1,39 @@
+@import "_mixin.scss";
+@import "common.scss";
 * {
     margin: 0;
     padding: 0;
     list-style: none;
+}
+
+.like {
+    width: 100%;
+    height: pxTorem(400px);
+    h5 {
+        font-size: pxTorem(14px);
+    }
+    .likebox {
+        @include box-flex;
+        @include align(center);
+        flex-wrap: wrap;
+        flex-shrink: 1;
+        dl {
+            width: 33.3%;
+            height: pxTorem(160px);
+            text-align: center;
+            @include box-flex;
+            @include direction(column);
+            @include align(center);
+            margin-top: pxTorem(15px);
+            dt {
+                width: 80%;
+                height: 80%;
+                line-height: pxTorem(120px);
+                background: red;
+            }
+            dd {
+                font-size: pxTorem(16px)
+            }
+        }
+    }
 }
