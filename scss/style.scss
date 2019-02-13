@@ -3,3 +3,36 @@
     padding: 0;
     list-style: none;
 }
+.notice{
+    margin: 0 26px;
+    .notice-header{
+        font-size: 24px;
+        font-weight: 800;
+        display: flex;
+        justify-content: space-between;
+        height: 70px;
+        align-items: center;
+        span:last-child{
+            font-size: 20px;
+            color: #C2C2C2;
+        }
+    }
+    .notice-cont{
+        display: flex;
+        flex-shrink: 0;
+        overflow: hidden;
+        dl{
+            width: 150px;
+            margin-right: 20px;
+            dt{
+                height: 150px;
+                width: 80px;
+                background: skyblue;
+            }
+            dd{
+                margin-top: 10px;
+                font-size: 15px;
+            }
+        }
+    }
+}

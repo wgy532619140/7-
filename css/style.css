@@ -3,3 +3,43 @@
   padding: 0;
   list-style: none;
 }
+
+.notice {
+  margin: 0 26px;
+}
+
+.notice .notice-header {
+  font-size: 24px;
+  font-weight: 800;
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+  align-items: center;
+}
+
+.notice .notice-header span:last-child {
+  font-size: 20px;
+  color: #C2C2C2;
+}
+
+.notice .notice-cont {
+  display: flex;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+
+.notice .notice-cont dl {
+  width: 150px;
+  margin-right: 20px;
+}
+
+.notice .notice-cont dl dt {
+  height: 150px;
+  width: 80px;
+  background: skyblue;
+}
+
+.notice .notice-cont dl dd {
+  margin-top: 10px;
+  font-size: 15px;
+}
