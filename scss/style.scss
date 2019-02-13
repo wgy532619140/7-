@@ -3,3 +3,33 @@
     padding: 0;
     list-style: none;
 }
+.recommend{
+    padding: 10px 20px;
+    h4{
+        line-height: 44px;
+    }
+    .recommend-wrapper{
+        dl{
+            display: flex;
+            justify-content: space-between;
+            dt{
+                width: 60px;
+                height: 60px;
+                background: skyblue;
+            }
+            dd{
+                h5{
+                    line-height: 20px;
+                }
+                p{
+
+                }
+                div{
+                    margin-top: 10px;
+                    display: flex;
+                    justify-content: space-between;
+                }
+            }
+        }
+    }
+}
